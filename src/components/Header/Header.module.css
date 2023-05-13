@@ -1,0 +1,14 @@
+.headerImg{
+    background-color: rgb(38, 44, 58);
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.headerImg img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

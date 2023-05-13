@@ -1,0 +1,13 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 18px;
+    /* Otros estilos del contenedor de las tarjetas */
+  }
+  
+  .cardWrapper {
+    /* flex: 0 0 calc(33.33% - 20px); */
+    margin: 10px;
+    /* Otros estilos del envoltorio de la tarjeta */
+  }

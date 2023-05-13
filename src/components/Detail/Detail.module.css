@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.cardRow {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  margin: 0 20px;
+}
+
+.characterImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.characterName {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* Estilos de fondo para el texto */
+.card h2 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}

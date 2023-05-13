@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* Otros estilos del contenedor principal */
+  }
+  
+  .select {
+    margin-right: 10px;
+    /* Otros estilos de los select */
+  }
+  
+  .cardsRow {
+    display: flex;
+    flex-wrap: wrap;
+    /* Otros estilos de la fila de tarjetas */
+  }
+  
+  .cardWrapper {
+    /* flex: 0 0 calc(33.33% - 20px); */
+    margin: 10px;
+    /* Otros estilos del envoltorio de la tarjeta */
+  }
