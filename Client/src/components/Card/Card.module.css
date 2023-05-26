@@ -1,0 +1,74 @@
+.card {
+  background-color: rgb(232, 230, 235);
+  color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 300px;
+  height: 100%;
+  transition: transform 0.25s ease-in-out;
+}
+
+.cardInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Otros estilos específicos del contenido interno de la tarjeta */
+}
+
+.cardImage {
+  /* width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px; */
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+
+.favoriteButton{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 37px;
+}
+.closeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  /* Otros estilos específicos de los botones */
+}
+
+.cardLink {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  margin: 10px;
+  background-color: #065f92;
+  border-radius: 7px;
+  width: 100%;
+  position: inherit;
+  /* Otros estilos específicos del enlace de la tarjeta */
+}
+
+.cardTitle {
+  margin: 0;
+  /* Otros estilos específicos del título de la tarjeta */
+}
+
+.cardStatus,
+.cardSpecies,
+.cardGender,
+.cardOrigin {
+  margin: 0;
+  /* Otros estilos específicos de los elementos de información */
+}
