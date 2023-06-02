@@ -7,7 +7,7 @@ const PORT = 3001;
 
 
 try {
-   conn.sync()
+   conn.sync({force: true})
      .then(() => {
        server.listen(PORT, () => {
          console.log('Server raised on port: ' + PORT);

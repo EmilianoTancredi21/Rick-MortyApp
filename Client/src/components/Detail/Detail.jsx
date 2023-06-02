@@ -22,20 +22,18 @@ const Detail = () => {
      return (
       <div className={styles.container}>
         {character && (
-          
           <div className={styles.cardRow}>
             <div className={styles.card}>
               <img src={character.image} alt="" className={styles.characterImage} />
-              <h2 className={styles.characterName}>{character.name}</h2>
             </div>
             <div className={styles.card}>
+              <h2 className={styles.characterName}>{character.name}</h2>
               <h2>{character.status}</h2>
               <h2>{character.species}</h2>
               <h2>{character.gender}</h2>
               <h2>{character.origin?.name}</h2>
             </div>
           </div>
-          
         )}
       </div>
     );

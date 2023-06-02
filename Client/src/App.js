@@ -9,7 +9,6 @@ import About from './components/About/About';
 import Detail from './components/Detail/Detail';
 import Form from './components/Form/Form';
 import Favorites from './components/Favorites/Favorites';
-import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -71,7 +70,6 @@ useEffect(() => {
             <Route path='/detail/:id' element={<Detail/>}/>
             <Route path='/favorites' element={<Favorites/>}/>
          </Routes>
-         <Footer/>
       </div>
    );
 }
